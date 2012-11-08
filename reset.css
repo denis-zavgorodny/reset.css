@@ -11,11 +11,12 @@ version: 2.9.0
  * @requires 
  */
 
-/*
-*    Extened by Denis Zavgorodny
-*    zavgorodny@alterego.biz.ua
+/**
+*	@extended Denis Zavgorodny
+*	@mail zavgorodny@alterego.biz.ua
 *
-*/ 
+*
+*/
 html {
 	color: #000;
 	background: #FFF;
