@@ -134,10 +134,16 @@ button::-moz-focus-inner {
     padding:0;
     border:0;
 }
-strong {
-	font-weight: bold;
+button {
+	*overflow: visible;	
 }
- 
+
+strong, b {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
 /*
 *    Helpers section
 *
