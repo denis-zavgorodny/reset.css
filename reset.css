@@ -87,7 +87,7 @@ ins {
 	text-decoration: none;
 }
 
-li {
+ul > li {
 	list-style: none;
 }
 
@@ -118,11 +118,11 @@ acronym {
 }
 
 sup {
-	vertical-align: baseline;
+	vertical-align: top;
 }
 
 sub {
-	vertical-align: baseline;
+	vertical-align: bottom;
 }
 
 /*because legend doesn't inherit in IE */
@@ -166,4 +166,39 @@ em {
     display:-moz-inline-box; display:inline-block; *zoom: 1; *display:inline;
     vertical-align: middle;
     width: 100%;
+}
+section, 
+nav, 
+aside,
+article,
+header, 
+footer {
+    display: block;
+}
+
+/**
+*
+*/
+.pre-text { /* root path for pre-edited style */
+
+}
+.pre-text h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.pre-text h2 {
+    font-weight: bold;
+    font-size: 1.7em;
+}
+.pre-text h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.pre-text h4 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.pre-text h5 {
+    font-weight: bold;
+    font-size: 1.2em;
 }
