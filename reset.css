@@ -202,3 +202,7 @@ footer {
     font-weight: bold;
     font-size: 1.2em;
 }
+.pre-text ul > li {
+    list-style: disc inside;
+
+}
